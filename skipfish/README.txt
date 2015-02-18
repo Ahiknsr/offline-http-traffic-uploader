@@ -6,7 +6,7 @@ Next create a database using
 
 Usage:
 
-Change the DATABASE and USER in create_table.py and skipfish_uploader.py to your database name and user name
+Change the DATABASE and USER in config.txt according to the values used above 
 
 1) Create a table in database by using
 

@@ -1,7 +1,19 @@
 import  sys , psycopg2
 
-DATABASE = "testdb"
-USER = "ahiknsr"
+#This get the USERNAME and DATABASE values for postgresql from config.txt
+f = open('config.txt','r')
+lines = f.readlines()
+for line in lines:
+    if line[0] != '#':
+        if 'USERNAME' in line:
+            USER = line.split('"')[1]
+        elif 'DATABASE' in line:
+            DATABASE = line.split('"')[1]
+
+if DATABASE == ' ' or USER == '':
+    print "Edit the config.txt "
+    sys.exit(0)
+
 
 
 conn = psycopg2.connect(database = DATABASE , user = USER)
