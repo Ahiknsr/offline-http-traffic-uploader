@@ -18,4 +18,4 @@ python2 skipfish_uploader.py -p /pathto/skipfishoutput/directory
 
 Incase you messed up the table clear the table by running python2 create_table.py --force
 
-This is supposed to be integrated with Owtf database so few like targetid and time may be  redundant for you , session analysis is not supported as of now 
+This is supposed to be integrated with Owtf database so few fields in table like targetid may be  redundant for you , session analysis is not supported as of now 
