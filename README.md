@@ -15,7 +15,7 @@ The plan is to read output files from them and translate these into the followin
 
 A plugin-based uploader system will be implemented, which uploads that into the OWTF database.
 
-
+As of now uploading data from skipfish is supported for more details check https://github.com/Ahiknsr/offline-http-traffic-uploader/skipfish/README.txt
 
 
 ## Stay tunned for more!
